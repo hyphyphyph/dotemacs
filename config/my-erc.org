@@ -1,0 +1,15 @@
+; ERC
+; (require 'erc)
+; (erc-autojoin-mode t)
+; (setq erc-autojoin-channels-alist
+;           '((".*\\.freenode.net" "#emacs" "#montreal-python" "#pastaga" "#fedora" "#ubity" "#schurger.org" "#stumpwm" "#rudel" "#conkeror")
+;             (".*\\.gnome.*" "#gnomefr")
+;             (".*\\.gimp.*" "#gnomefr")))
+; (setq erc-keywords '("jeansch"))
+; (erc-match-mode t)
+; (setq erc-user-full-name "Jean Schurger")
+; (setq erc-email-userid "jean@schurger.org")
+; (defun irc-connect ()
+;   (interactive)
+;   (erc :server "irc.freenode.net" :port 6667 :nick "jeansch" :password (gnome-keyring-get-password "erc-freenode"))
+;   (erc :server "irc.gimp.net" :port 6667 :nick "jeansch"))
